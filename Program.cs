@@ -11,7 +11,7 @@ namespace Payroll01
 
           
             SalariedEmployee salariedEmployee = new SalariedEmployee("Peter", "Parker", "SPIDER001", 10.0M);
-            HourlyEmployee hourlyEmployee = new HourlyEmployee("Bruce","Wayne","BAT001");
+            HourlyEmployee hourlyEmployee = new HourlyEmployee("Bruce","Wayne","BAT001",15.0M, 45 );
             CommissionEmployee commissionEmployee = new CommissionEmployee("David", "Banner", "HULK001");
             BasePlusCommissionEmployee basePlusCommissionEmployee = new BasePlusCommissionEmployee("Clark", "Kent", "SUPER001");
 

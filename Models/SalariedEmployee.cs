@@ -22,7 +22,8 @@ namespace Payroll01.Models
             {
                 if (value < 0)
                 {
-                    throw new ArgumentOutOfRangeException(nameof(value), value, $"{nameof(WeeklySalary)} must be > 0");
+                    throw new ArgumentOutOfRangeException(nameof(value), 
+                        value, $"{nameof(WeeklySalary)} must be > 0");
                 } else
                 {
                     weeklySalary = value;
